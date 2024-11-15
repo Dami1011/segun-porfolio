@@ -1,0 +1,42 @@
+body {
+  font: 1.2em "Fira Sans", sans-serif;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+hr {
+  border: dotted grey;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+#info p {
+  width: 30%;
+}
+.btn{
+    background-color: #ff4c68;
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+}
